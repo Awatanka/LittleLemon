@@ -1,0 +1,122 @@
+body {
+  background-color: #edefee;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30.25rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+article > img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 0.625rem;
+}
+
+nav {
+  background-color: rgb(63, 61, 61);
+  border-radius: 0.3125rem;
+  width: 80vw;
+  height: 3.125rem;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  color: #edefee;
+}
+
+nav li a:hover {
+  color: #f6fc81;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 5px;
+}
+
+section {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+section {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+article {
+  flex: 1;
+  color: white;
+  padding: 2rem;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  padding: 2.5rem;
+  align-items: flex-end;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer div p {
+  border-top: 1px solid grey;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+.section-offer {
+  background-image: url("./falafel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20.25rem;
+  border-radius: 0.3125rem;
+}
+
+.section-cards > article {
+  background-color: #c5c8c3;
+  margin: 0.625rem;
+  border-radius: 1.25rem;
+}
